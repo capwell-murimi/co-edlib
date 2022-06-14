@@ -1,0 +1,28 @@
+body{
+    background: orange;
+}
+.menu{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: brown;
+}
+#types{
+    text-decoration: none;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 3px;
+    position: relative;
+    background: black;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    
+    text-align: ce ;
+}
