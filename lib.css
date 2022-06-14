@@ -411,7 +411,7 @@
     z-index: 100;
 }
 #socials{
-    background:aqua;
+    background:red;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .wrapper .button1{
@@ -421,7 +421,7 @@
     float: left;
     margin: 0 5px;
     overflow: hidden;
-    background: aqua;
+    background: #fff;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
