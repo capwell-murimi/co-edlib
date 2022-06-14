@@ -410,6 +410,9 @@
     position: fixed;
     z-index: 100;
 }
+#socials{
+    background:aqua;
+}
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .wrapper .button1{
     display: inline-block;
