@@ -1,0 +1,49 @@
+body{
+    background: white;
+}
+.navbar{
+    background: black;
+    height: 800px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: -999;
+    z-index: 999;
+    position: absolute;
+}
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.display{
+    background: white;
+    width: 100%;
+    margin-left: 250px;
+    height: 800px;
+}
+.eng{
+    max-width: 20%;
+    height: auto;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.eng:hover{
+    color: white;
+}
+p.eng1{
+    margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+a.eng1{
+    text-decoration: none;
+    color: orangered;
+}
