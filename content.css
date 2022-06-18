@@ -3,7 +3,7 @@ body{
 }
 .navbar{
     background: black;
-    height: 800px;
+    height: 100%;
     width: 250px;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ body{
     background: white;
     width: 100%;
     margin-left: 250px;
-    height: 800px;
+    height: 100%;
 }
 .eng{
     max-width: 20%;
