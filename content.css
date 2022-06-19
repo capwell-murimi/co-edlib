@@ -50,7 +50,7 @@ a.eng1{
 a.eng1:hover{
     color: orange;
 }
-#preloader{
+.preloader{
     background: rgb(247, 245, 245) url(loader2.gif) no-repeat center center;
     background-size: n;
     height: 100vh;
