@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faculties</title>
+    <title>coedlib</title>
     <link rel="stylesheet" href="content.css">
+    <link rel="icon" href="logo.jpg">
+   
 </head>
 <body>
-    <div class="preloader" ></div>
-  nav class="navbar">
-   div class="navbarcontainer">
-      
-   </div>
-  </nav>
-  <div class="display">
-   <a href="How to Be Good at Science, Technology Engineering (DK, Robert Dinwiddie, John Farndon etc.) (z-lib.org).pdf">
-      <img class="eng" src="How to Be Good at Science, Technology & Engineering.jpg" alt="">
-   </a>
-   <a class="eng1" href="How to Be Good at Science, Technology Engineering (DK, Robert Dinwiddie, John Farndon etc.) (z-lib.org).pdf">
-      <p class="eng1">How to Be Good at Science,Technology and Engineering</p>
-   </a>
-  </div>
-  <script src="app.js"></script>
+
+     <div id="preloader">
+=
+     </div>
+
+    <!--navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">FACULTIES</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#engineering" class="navbar__links" id="eng-page">Engineering</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#programming" class="navbar__links" id="code-page">Programming</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#mathematics" class="navbar__links" id="math-page">Mathematics</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#social sciences" class="navbar__links" id="socialscience-page">Sciences</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#business" class="navbar__links" id="bus-page">Business</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#inspiration" class="navbar__links" id="ins-page">Inspiration</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"><span></span></h1>
+            <p class="hero__description"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+ <script>
+     var loader = document.getElementById("preloader")
+
+     window.addEventListener("load", function(){
+         loader.style.display = "none";
+     })
+ </script>
+
+
 </body>
 </html>
