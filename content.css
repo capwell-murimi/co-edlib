@@ -27,7 +27,7 @@ body{
 
 .container .title{
    font-size: 3.5rem;
-   color:#444;
+   color: rgb(233, 229, 229);
    margin-bottom: 3rem;
    text-transform: uppercase;
    text-align: center;
