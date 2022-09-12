@@ -1,67 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coedlib</title>
-    <link rel="stylesheet" href="content.css">
-    <link rel="icon" href="logo.jpg">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="content.css">
+
+   <!-- custom js file link  -->
+   <script src="lib.js" defer></script>
+
 </head>
 <body>
+   
+<div class="container">
 
-     <div id="preloader">
-=
-     </div>
+   <h3 class="title"> what we offer </h3>
 
-    <!--navbar section-->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">FACULTIES</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#engineering" class="navbar__links" id="eng-page">Engineering</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#programming" class="navbar__links" id="code-page">Programming</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#mathematics" class="navbar__links" id="math-page">Mathematics</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#social sciences" class="navbar__links" id="socialscience-page">Sciences</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#business" class="navbar__links" id="bus-page">Business</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#inspiration" class="navbar__links" id="ins-page">Inspiration</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-        <div class="hero__container">
-            <h1 class="hero__heading"><span></span></h1>
-            <p class="hero__description"></p>
-        </div>
-    </div>
-    <script src="app.js"></script>
- <script>
-     var loader = document.getElementById("preloader")
+   <div class="products-container">
 
-     window.addEventListener("load", function(){
-         loader.style.display = "none";
-     })
- </script>
+      <div class="product" data-name="p-1">
+         <img src="images/1.jpeg" alt="">
+         <h3>civil engineering hydraulics</h3>
+         <div class="price">50.00 ksh</div>
+      </div>
 
+      <div class="product" data-name="p-2">
+         <img src="images/2.jpeg" alt="">
+         <h3>A Passion for Mathematics</h3>
+         <div class="price">50.00ksh</div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/3.jpeg" alt="">
+         <h3>How to be good at Science, Engeneering And Technology</h3>
+         <div class="price">50.00 ksh</div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/4.jpeg" alt="">
+         <h3>The Personal MBA</h3>
+         <div class="price">50.00 ksh</div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/5.jpeg" alt="">
+         <h3>Pathophysiology of Disease</h3>
+         <div class="price">50.00 ksh</div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/6.jpeg" alt="">
+         <h3>Introduction to Python Programming</h3>
+         <div class="price">50.00 ksh</div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1.jpeg" alt="">
+      <h3>civil engeneering hydraulics</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.jpeg" alt="">
+      <h3>A Passion for Mathematics</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.jpeg" alt="">
+      <h3>How to be good at Science, Engeneering And Technology</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.jpeg" alt="">
+      <h3>The Personal MBA</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/5.jpeg" alt="">
+      <h3>Pathophysiology of Disease</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/6.jpeg" alt="">
+      <h3>Introduction to Python Programming</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <span>( 250 )</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">50.00 ksh</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+</div>
 
 </body>
 </html>
