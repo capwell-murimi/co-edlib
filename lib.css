@@ -485,3 +485,6 @@
   .wrapper .button1:nth-child(5) span{
     color: #ff0000;
   }
+ .wrapper .button1 span a{
+    text decoration:none;
+}
