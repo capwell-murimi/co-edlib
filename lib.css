@@ -200,9 +200,11 @@
 
     /* Hero section */
     .hero{
-        background: whitesmoke;
-        background: linear-gradient(to right, white, white);
+        background: url(coedlib-logos.jpeg)no-repeat ;
+        background-size: 100% 900px;
+       /*background: linear-gradient(to right, white, white);*/
         padding: 200px 0;
+        height: 800px;
     }
 
     .hero__container {
@@ -215,6 +217,10 @@
         height: 90%;
         text-align: center;
         padding: 30px;
+    }
+    .hero__container .main__btn{
+        margin-top: 660px;
+        margin-right: 100px;
     }
 
     .hero__heading{
@@ -256,9 +262,23 @@
         .hero__heading{
             font-size: 60px;
         }
+        .hero{
+            background: url(coedlib-logos_transparent.png)red no-repeat;
+            background-size: 500px 400px;
+           /*background: linear-gradient(to right, white, white);*/
+            padding: 200px 0;
+            height: 500px;
+        }
+    
 
         .hero__description{
             font-size: 40px;
+        }
+        .hero__container .main__btn{
+            margin-top: 350px;
+            margin-right: 20px;
+            font-size: 1rem;
+            padding: 10px 30px;
         }
     }
 
@@ -485,6 +505,3 @@
   .wrapper .button1:nth-child(5) span{
     color: #ff0000;
   }
- .wrapper .button1 span a{
-    text decoration:none;
-}
