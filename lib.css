@@ -505,3 +505,6 @@
   .wrapper .button1:nth-child(5) span{
     color: #ff0000;
 }}
+.icon a{
+text-decoration:none;
+}
